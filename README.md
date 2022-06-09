@@ -8,6 +8,16 @@ To run the transformers based models, use the file `transformersTrain.py`.
 It runs the code on the given datasets. The file has been commented to provide appropriate pointers.
 Also, the logs for the same are present oin twitterCovidKaggleLogs.
 
+Experiemtal results obtained :
+
+|   Method name  | Micro-F1 | Macro-F1 | Weighted-F1 |
+|:--------------:|:--------:|:--------:|:-----------:|
+| Sparse Vectors |   0.547  |   0.557  |    0.547    |
+|       LSA      |   0.376  |   0.369  |    0.369    |
+|      NNMF      |   0.350  |   0.334  |    0.339    |
+|      BERT      |   0.858  |   0.853  |    0.858    |
+
+
 Environment assumes the following:
 
 sentence-transformers==1.2.0 <br />
