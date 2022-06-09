@@ -1,0 +1,138 @@
+Counter({'Positive': 11422, 'Negative': 9917, 'Neutral': 7713, 'Extremely Positive': 6624, 'Extremely Negative': 5481})
+['Extremely Negative', 'Extremely Positive', 'Negative', 'Neutral', 'Positive']
+{'Extremely Negative': 0, 'Extremely Positive': 1, 'Negative': 2, 'Neutral': 3, 'Positive': 4}
+{0: 'Extremely Negative', 1: 'Extremely Positive', 2: 'Negative', 3: 'Neutral', 4: 'Positive'}
+Train data (41157, 8)   
+Test data  (3798, 8)
+Creating model ..... 
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+/home/sudhanshu/.cache/torch/transformers
+
+Training for epoch 0 .....
+              precision    recall  f1-score   support
+
+           0       0.78      0.82      0.80      1096
+           1       0.80      0.82      0.81      1325
+           2       0.76      0.72      0.74      1983
+           3       0.85      0.84      0.85      1543
+           4       0.74      0.76      0.75      2285
+
+   micro avg       0.78      0.78      0.78      8232
+   macro avg       0.79      0.79      0.79      8232
+weighted avg       0.78      0.78      0.78      8232
+
+accuracy score :  0.782555879494655
+Obtained a loss / f1 score of 0.592 / 0.782 on  eval dl 1  dataset.
+Obtained a f1 score  eval dl 1  macro / micro / weighted : 0.7896838733944853 / 0.782555879494655 / 0.7822808196491222 
+
+
+********************************
+new best eval_f1 0.7822808196491222, saving the model ..... 
+
+Training for epoch 1 .....
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      1096
+           1       0.93      0.83      0.88      1325
+           2       0.77      0.87      0.81      1983
+           3       0.93      0.86      0.89      1543
+           4       0.83      0.85      0.84      2285
+
+   micro avg       0.85      0.85      0.85      8232
+   macro avg       0.86      0.85      0.85      8232
+weighted avg       0.85      0.85      0.85      8232
+
+accuracy score :  0.8493683187560739
+Obtained a loss / f1 score of 0.424 / 0.851 on  eval dl 1  dataset.
+Obtained a f1 score  eval dl 1  macro / micro / weighted : 0.8540486545266732 / 0.8493683187560738 / 0.8505526565801478 
+
+
+********************************
+new best eval_f1 0.8505526565801478, saving the model ..... 
+
+Training for epoch 2 .....
+              precision    recall  f1-score   support
+
+           0       0.83      0.91      0.87      1096
+           1       0.87      0.91      0.89      1325
+           2       0.84      0.83      0.83      1983
+           3       0.95      0.85      0.90      1543
+           4       0.86      0.85      0.85      2285
+
+   micro avg       0.86      0.86      0.86      8232
+   macro avg       0.87      0.87      0.87      8232
+weighted avg       0.87      0.86      0.86      8232
+
+accuracy score :  0.8646744412050534
+Obtained a loss / f1 score of 0.395 / 0.865 on  eval dl 1  dataset.
+Obtained a f1 score  eval dl 1  macro / micro / weighted : 0.8683879647857091 / 0.8646744412050534 / 0.8648507551001696 
+
+
+********************************
+new best eval_f1 0.8648507551001696, saving the model ..... 
+
+Training for epoch 3 .....
+              precision    recall  f1-score   support
+
+           0       0.82      0.92      0.87      1096
+           1       0.83      0.94      0.88      1325
+           2       0.86      0.81      0.84      1983
+           3       0.92      0.87      0.90      1543
+           4       0.87      0.83      0.85      2285
+
+   micro avg       0.86      0.86      0.86      8232
+   macro avg       0.86      0.88      0.87      8232
+weighted avg       0.87      0.86      0.86      8232
+
+accuracy score :  0.8634596695821186
+Obtained a loss / f1 score of 0.450 / 0.863 on  eval dl 1  dataset.
+Obtained a f1 score  eval dl 1  macro / micro / weighted : 0.8669659617013385 / 0.8634596695821186 / 0.8630892618791632 
+
+
+********************************
+
+Training for epoch 4 .....
+              precision    recall  f1-score   support
+
+           0       0.84      0.92      0.88      1096
+           1       0.88      0.93      0.90      1325
+           2       0.86      0.83      0.85      1983
+           3       0.89      0.89      0.89      1543
+           4       0.89      0.85      0.87      2285
+
+   micro avg       0.87      0.87      0.87      8232
+   macro avg       0.87      0.88      0.88      8232
+weighted avg       0.87      0.87      0.87      8232
+
+accuracy score :  0.874271137026239
+Obtained a loss / f1 score of 0.452 / 0.874 on  eval dl 1  dataset.
+Obtained a f1 score  eval dl 1  macro / micro / weighted : 0.8770989563312593 / 0.874271137026239 / 0.8739645627422875 
+
+
+********************************
+new best eval_f1 0.8739645627422875, saving the model ..... 
+Loading best model with f1 score of .... 0.8739645627422875 .
+              precision    recall  f1-score   support
+
+           0       0.86      0.91      0.88       592
+           1       0.87      0.88      0.88       599
+           2       0.84      0.83      0.84      1041
+           3       0.87      0.86      0.86       619
+           4       0.84      0.82      0.83       947
+
+   micro avg       0.85      0.85      0.85      3798
+   macro avg       0.86      0.86      0.86      3798
+weighted avg       0.85      0.85      0.85      3798
+
+accuracy score :  0.8533438651922064
+Obtained a loss / f1 score of 0.530 / 0.853 on  test dl  dataset.
+Obtained a f1 score  test dl  macro / micro / weighted : 0.858243456570321 / 0.8533438651922064 / 0.8530988096717584 
+
+
+********************************
