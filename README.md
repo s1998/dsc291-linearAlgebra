@@ -4,7 +4,9 @@
 To run the baselines related to linear algebra, use the notebook  `matrixfactorization_notebook.ipynb` 
 The notebook has been properly commented and divided into sections for explaining everything. 
 
-To run the transformers based models, use the notebook `transformersTrain.py`.
+To run the transformers based models, use the file `transformersTrain.py`. 
+It runs the code on the given datasets. The file has been commented to provide appropriate pointers.
+Also, the logs for the same are present oin twitterCovidKaggleLogs.
 
 Environment assumes the following:
 
